@@ -1,0 +1,15 @@
+; Servidor de salas do All In Mom (roda sem tela).
+; Ligar:  godot --headless --path servidor_salas
+
+config_version=5
+
+[application]
+
+config/name="All In Mom - Servidor de Salas"
+run/main_scene="res://servidor.tscn"
+config/features=PackedStringArray("4.7")
+
+[display]
+
+window/size/viewport_width=320
+window/size/viewport_height=180
